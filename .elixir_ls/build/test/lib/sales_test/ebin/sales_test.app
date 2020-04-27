@@ -1,0 +1,9 @@
+{application,sales_test,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"sales_test"},
+              {modules,['Elixir.SalesTest','Elixir.SalesTest.Sale',
+                        'Elixir.SalesTest.SaleServer',
+                        'Elixir.SalesTest.SaleSupervisor']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.SalesTest',[]}}]}.
